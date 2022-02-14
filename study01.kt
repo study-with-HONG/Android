@@ -1,4 +1,4 @@
-//// MainActivity.kt
+----- MainActivity.kt
 import android.content.ContentValues
 import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-//// activity_main.xml
+----- activity_main.xml
 <?xml version="1.0" encoding="utf-8"?><!-- ConstraintLayout : 해상도 자동 맞춤 -->
 <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
