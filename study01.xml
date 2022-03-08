@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- android:orientation을 "vertical"로 하면 요소가 세로로 쌓이고
-                  기본값 -> "horizontal"로 하면 가로로 쌓임 -->
+                           "horizontal"(기본값)로 하면 가로로 쌓임 -->
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -17,6 +17,7 @@
             android:id="@+id/button2" android:text="Button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+  
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
