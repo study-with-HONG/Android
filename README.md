@@ -6,6 +6,7 @@
 * study04 : GridLayout(키패드 숫자 입력하고 지우기)
 * study05 : RelativeLayout
 * study06 : TextView(전광판 효과), EditText(실시간 입력 보여주기), lazy
+* study07 : Radio
 
 
 
