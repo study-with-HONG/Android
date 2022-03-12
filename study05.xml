@@ -1,4 +1,4 @@
-//************************************************** activity_main.xml
+************************************************** activity_main.xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -34,9 +34,9 @@
             app:layout_constraintVertical_bias="0.1"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-//************************************************** strings.xml
-<!--여기에 정의해 놓은 텍스트를 가져다 사용하면 다국어 처리, 텍스트 수정 등 앱관리에 용이-->
+************************************************** strings.xml
 <!--app > src > main > res > values > strings.xml-->
+<!--여기에 정의해 놓은 텍스트를 가져다 사용하면 다국어 처리, 텍스트 수정 등 앱관리에 용이-->
 <resources>
     <string name="app_name">study04</string>
     <string name="addStr">
