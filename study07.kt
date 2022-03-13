@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
 //                R.id.radio4 -> tv.text = "다시 만나요"
 //            }
 //        }
-
         // 방법2 -> binding 이용
         setContentView(binding.root)
 
