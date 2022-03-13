@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // 기본 방법
+        // 방법1 -> 기본세팅 이용
 //        setContentView(R.layout.activity_main)
 //
 //        val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 //            }
 //        }
 
-        // binding 방법
+        // 방법2 -> binding 이용
         setContentView(binding.root)
 
         binding.radioGroup.setOnCheckedChangeListener { groupId, btnId ->
