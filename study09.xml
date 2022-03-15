@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="100dp" android:layout_height="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="50dp"/>
+    <TextView
+            android:id="@+id/pbText"
+            android:text="Downloading..." android:gravity="center"
+            android:layout_width="130dp" android:layout_height="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar"/>
+    <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="200dp" android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pbText"
+            android:layout_marginTop="50dp"/>
+    <TextView
+            android:id="@+id/sbText"
+            android:text="볼륨 : 0" android:gravity="center"
+            android:layout_width="130dp" android:layout_height="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar"/>
+    <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="250dp" android:layout_height="wrap_content"
+            android:numStars="7"
+            style = "?android:attr/ratingBarStyleIndicator"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sbText"
+            android:layout_marginTop="50dp"/>
+    <TextView
+            android:id="@+id/rbText"
+            android:text="0.0점" android:gravity="center"
+            android:layout_width="50dp" android:layout_height="30dp"
+            app:layout_constraintStart_toEndOf="@+id/ratingBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ratingBar"
+            app:layout_constraintBottom_toBottomOf="@+id/ratingBar"
+            app:layout_constraintHorizontal_bias="0.1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
