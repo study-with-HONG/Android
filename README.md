@@ -8,4 +8,4 @@
 * study06 : TextView(전광판 효과), EditText(실시간 입력 보여주기), Lazy
 * study07 : RadioGroup, RadioButton(default값 설정, 버튼 가로배치, radio 값 보여주기)
 * study08 : CheckBox(체크항목 보여주고 없애기)
-* study09 : ProgressBar, SeekBar, RatingBar
+* study09 : ProgressBar(visibility 설정), SeekBar, RatingBar
